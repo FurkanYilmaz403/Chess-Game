@@ -1,5 +1,7 @@
 *.h linguist-language=C++
 *.cpp linguist-language=C++
-generated/*.d linguist-generated=true
-generated/*.in linguist-generated=true
+*.in linguist-generated=false
 *.t linguist-detectable=false
+*.dll linguist-detectable=false
+*.gch linguist-detectable=false
+*.d linguist-detectable=false
